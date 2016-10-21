@@ -6,6 +6,7 @@ Extensions
 This sections lists available HydraTK extensions and how to install them.
 
 .. toctree::
+   :maxdepth: 1
 
    ext/datagen
    ext/testenv

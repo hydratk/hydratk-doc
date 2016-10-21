@@ -21,11 +21,11 @@ Extensions
 .. toctree::
    :maxdepth: 1
 
-   refman/exts/benchmark
-   refman/exts/datagen
-   refman/exts/testenv
-   refman/exts/trackapps
-   refman/exts/yoda
+   refman/ext/benchmark
+   refman/ext/datagen
+   refman/ext/testenv
+   refman/ext/trackapps
+   refman/ext/yoda
    
 Libraries
 =========
@@ -33,4 +33,4 @@ Libraries
 .. toctree::
    :maxdepth: 1
 
-   refman/libs/network   
+   refman/lib/network   

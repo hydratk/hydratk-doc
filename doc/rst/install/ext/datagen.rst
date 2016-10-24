@@ -111,7 +111,7 @@ Application installs following (paths depend on your OS configuration)
 
 * datagen command in /usr/local/bin/datagen
 * modules in /usr/local/lib/python2.7/dist-packages/hydratk_ext_datagen-0.1.0-py2.7.egg
-* configuration file in /etc/hydratk/conf.d/hydratk-ext-datagen.conf    
+* configuration file in /etc/hydratk/conf.d/hydratk-ext-datagen.conf   
      
 Run
 ^^^

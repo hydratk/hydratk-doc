@@ -3,4 +3,12 @@
 DataGen
 =======
 
-This section contains module documentation of DataGen extensions.
+This section contains module documentation of DataGen extension.
+
+.. toctree::
+   :maxdepth: 1
+   
+   main
+   jsongen
+   xmlgen
+   asn1codec

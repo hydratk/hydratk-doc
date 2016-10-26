@@ -47,7 +47,7 @@ autodoc_mock_imports = [
                         'pycurl', 
                         'pymongo', 'pymongo.errors',
                         'pymssql',
-                        'pytz',
+                        'pytz', 'pytz.exceptions',
                         'pyx.messaging', 'pyx.system.utils', 
                         'redis',
                         'requests', 'requests.exceptions', 'requests.packages.urllib3', 'requests.auth', 'requests_ntlm',

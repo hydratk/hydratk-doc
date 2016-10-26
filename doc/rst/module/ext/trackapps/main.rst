@@ -26,7 +26,7 @@ Method sets extension metadata (id, name, version, author, year).
 
 * _register_actions
 
-Methods registers actions hooks according to profile htk (default mode) or trackapps (standalone mode)
+Methods registers actions hooks according to profile htk (default mode) or trackapps (standalone mode).
 
 * _register_htk_actions
 
@@ -194,7 +194,7 @@ Method handles action delete (supported for mantis, trac, qc). It uses mandatory
 configuration
 ^^^^^^^^^^^^^
 
-Configuration is stored in /etc/hydratk/conf.dhydratk-ext-trackapps.conf   
+Configuration is stored in /etc/hydratk/conf.d/hydratk-ext-trackapps.conf   
 Each application has its own section.
 
 * url - server url

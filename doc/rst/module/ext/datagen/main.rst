@@ -41,7 +41,7 @@ Method registers action hooks for standalone mode.
 
 commands - asn1, json, xml, help
 long options - spec, input, output, action, element, envelope
-blobal options - config, debug, debug-channel, language, run-mode, force, interactive
+global options - config, debug, debug-channel, language, run-mode, force, interactive
 
 * gen_json
 

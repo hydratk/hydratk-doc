@@ -22,7 +22,11 @@ Unit tests available at hydratk/extensions/testenv/testenv/01_methods_ut.jedi
 
 * _init_extension
 
-Method sets extension metadata (id, name, version, author, year). 
+Method sets extension metadata (id, name, version, author, year).
+
+* _check_dependencies
+
+Method checks if all required modules are installed. 
 
 * _register_actions
 

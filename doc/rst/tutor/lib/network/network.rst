@@ -9,7 +9,7 @@ Network library provides clients/API for many network protocols and technologies
 * Database: client for databases: SQLite, Oracle, MySQL, PostgreSQL, JDBC, MSSQL
                        NoSQL: Redis, MongoDB, Cassandra
 * Email: client for protocols: SMTP, POP, IMAP
-* FTP: client for protocols: FTP/FTP, SFTP, TFTP
+* FTP: client for protocols: FTP/FTPS, SFTP, TFTP
 * INET: client for protocols: IP, TCP, UDP
 * Java: bridge to Java VM which enables interaction with Java code  
 * JMS: client for protocols: JMS, STOMP, AMQP, MQTT

@@ -45,10 +45,18 @@ xmlgen
 .. automodule:: hydratk.extensions.datagen.xmlgen
    :member-order: bysource
    
-.. _refman_ext_datagen_serializer:   
-   
+.. _refman_ext_datagen_serializer:    
+
 serializer
 ^^^^^^^^^^
 
 .. automodule:: hydratk.extensions.datagen.serializer
-   :member-order: bysource   
+   :member-order: bysource  
+   
+.. _refman_ext_datagen_selenium:     
+   
+selenium
+^^^^^^^^
+
+.. automodule:: hydratk.extensions.datagen.adapters.selenium.adapter
+   :member-order: bysource  

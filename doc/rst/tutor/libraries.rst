@@ -9,4 +9,5 @@ This section provides tutorials for HydraTK libraries.
    :maxdepth: 1
  
    lib/network/network.rst
+   lib/numeric/numeric.rst
    

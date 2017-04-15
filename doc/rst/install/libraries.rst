@@ -9,3 +9,4 @@ This sections lists available HydraTK libraries and how to install them.
    :maxdepth: 1
 
    lib/network
+   lib/numeric

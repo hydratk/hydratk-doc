@@ -10,12 +10,9 @@ Package
 
 Install it via Python package managers PIP or easy_install.
 
-Filename after PIP download contains version, adapt sample code.
-
   .. code-block:: bash
   
-     $ sudo pip download hydratk-ext-datagen
-     $ sudo pip install hydratk-ext-datagen.tar.gz 
+     $ sudo pip install --no-binary :all: hydratk-ext-datagen
      
   .. code-block:: bash
   
@@ -23,8 +20,8 @@ Filename after PIP download contains version, adapt sample code.
      
   .. note::
   
-     Use PIP to install package from local file for correct installation.
-     When installed from remote repository, PIP sometimes doesn't call setup.py.       
+     PIP needs option --no-binary to run setup.py install.
+     Otherwise it runs setup.py bdist_wheel.     
 
 Source
 ^^^^^^
@@ -165,20 +162,20 @@ Type man datagen to display manual page.
            Options:
               --gen-spec <path> - specification filename
              [--gen-output <path>] - output filename, default input filename with changed suffix or sample.json, sample.xml
-             
+
         gen-selenium - adapt Selenium script to Yoda format
            Options:
               --gen-input <path> - input filename
               [--gen-browser <title>] - browser to be used, default Firefox
               [--gen-output <path>] - output filename, default input filename with changed suffix or sample.json, sample.xml
-              [--gen-timeout <number>] - timeout for wait commands, default 10             
+              [--gen-timeout <number>] - timeout for wait commands, default 10
 
         gen-xml - generate sample xml file according to WSDL/XSD specification
            Options:
               --gen-element <title> - element title from specification
               --gen-spec <path> - specification filename
              [--gen-envelope] - generate including SOAP envelope
-             [--gen-output <path>] - output filename, default input filename with changed suffix or sample.json, sample.xml
+             [--gen-output <path>] - output filename, default input filename with changed suffix or sample.json, sample.xml                          
 
            
 You can run DataGen also in standalone mode.  
@@ -211,7 +208,7 @@ You can run DataGen also in standalone mode.
               --input <path> - input filename
               [--browser <title>] - browser to be used, default Firefox
               [--output <path>] - output filename, default input filename with changed suffix or sample.json, sample.xml
-              [--timeout <number>] - timeout for wait commands, default 10                
+              [--timeout <number>] - timeout for wait commands, default 10              
 
         xml - generate sample xml file according to WSDL/XSD specification
            Options:
@@ -232,10 +229,10 @@ You can run DataGen also in standalone mode.
 Upgrade
 =======
 
-Use same procedure as for installation. Command options --upgrade (pip, easy_install) or --force (setup.py) are not necessary.
+Use same procedure as for installation. Use command option --upgrade for pip, easy_install, --force for setup.py.
 If configuration file differs from default settings the file is backuped (extension _old) and replaced by default. Adapt the configuration if needed.
 
 Uninstall
 =========    
 
-Run command htkuninstall datagen.                                  
+Run command htkuninstall datagen Use option -y if you want to uninstall also dependent Python modules (for advanced user).                                

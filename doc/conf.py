@@ -33,6 +33,7 @@ autodoc_mock_imports = [
     'jsonrpclib', 'jsonrpclib.jsonrpc',
     'ldap', 'ldap.modlist',
     'lxml', 'lxml.etree',
+    'msgpack',
     'MySQLdb',
     'paho.mqtt', 'paho.mqtt.client',
     'paramiko', 'paramiko.exception', 'paramiko.ssh_exception', 'paramiko.rsakey',
@@ -55,6 +56,7 @@ autodoc_mock_imports = [
     'xtermcolor',
     'yaml',
     'web',
+    'zapv2',
     'zmq'
 ]
 

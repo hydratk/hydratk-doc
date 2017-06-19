@@ -23,6 +23,7 @@ Extensions
 
    refman/ext/benchmark
    refman/ext/datagen
+   refman/ext/security
    refman/ext/testenv
    refman/ext/trackapps
    refman/ext/yoda

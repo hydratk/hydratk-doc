@@ -1,7 +1,7 @@
 .. _module_hydra_lib_install:
 
 install
-======
+=======
 
 This sections contains module documentation of install modules.
 

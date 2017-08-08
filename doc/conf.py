@@ -15,10 +15,12 @@ import sphinx_rtd_theme
 repos = [
     'hydratk',
     'hydratk-ext-datagen',
+    'hydratk-ext-security',
     'hydratk-ext-testenv',
     'hydratk-ext-trackapps',
     'hydratk-ext-yoda',
-    'hydratk-lib-network'
+    'hydratk-lib-network',
+    'hydratk-lib-numeric'
 ]
 for repo in repos:
     sys.path.append('/projects/src/' + repo + '/src')
@@ -32,9 +34,9 @@ autodoc_mock_imports = [
     'jpype',
     'jsonrpclib', 'jsonrpclib.jsonrpc',
     'ldap', 'ldap.modlist',
-    'lxml', 'lxml.etree',
+    'lxml', 'lxml.etree', 'lxml.html',
     'msgpack',
-    'MySQLdb',
+    'MySQLdb', 'MySQLdb.cursors',
     'paho.mqtt', 'paho.mqtt.client',
     'paramiko', 'paramiko.exception', 'paramiko.ssh_exception', 'paramiko.rsakey',
     'proton', 'proton.utils', 'proton.reactor',
@@ -51,7 +53,7 @@ autodoc_mock_imports = [
     'selenium', 'selenium.common.exceptions', 'selenium.webdriver.support.ui', 'selenium.webdriver.common.utils',
     'simplejson', 'simplejson.scanner',
     'stompest', 'stompest.config', 'stompest.sync', 'stompest.protocol', 'stompest.error',
-    'suds', 'suds.cache', 'suds.client', 'suds.transport', 'suds.transport.https',
+    'suds', 'suds.cache', 'suds.client', 'suds.transport', 'suds.transport.https', 'suds.wsse',
     'tftpy',
     'xtermcolor',
     'yaml',

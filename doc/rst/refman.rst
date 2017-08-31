@@ -21,6 +21,7 @@ Extensions
 .. toctree::
    :maxdepth: 1
 
+   refman/ext/client
    refman/ext/benchmark
    refman/ext/datagen
    refman/ext/security

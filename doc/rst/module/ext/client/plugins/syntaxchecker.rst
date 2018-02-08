@@ -1,37 +1,35 @@
-.. _module_ext_client_syntaxchecker:
+.. _module_ext_client_plugins_syntaxchecker:
 
 syntaxchecker
 =============
 
 This sections contains module documentation of syntaxchecker module.
 
-SyntaxChecker
-^^^^^^^^^^^^^
+Plugin
+^^^^^^
 
-Class for code syntax check.
+Class for SyntaxChecker.
 
 **Attributes** :
 
 * _instance - instance reference
 * _instance_created - bool, True if created
-* _root - Gui instance reference
-* _tb_idx - traceback index
-
-**Properties (Getters)** :
-
-* root - returns _root
 
 **Methods** :
 
-* __init__
+* _init_plugin
 
-Constructor, singleton pattern. Initialize references.
+Method initializes plugin.
 
-* get_instance
+* setup
 
-Returns instance reference, singleton pattern.
+Method sets plugin menu.
 
-* check
+* _check_syntax
+
+Method checks syntax of current file content.
+
+* _check
 
 Method checks text syntax according to file extensions.
 

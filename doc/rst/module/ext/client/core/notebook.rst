@@ -1,4 +1,4 @@
-.. _module_ext_client_notebook:
+.. _module_ext_client_core_notebook:
 
 notebook
 ========
@@ -12,13 +12,13 @@ Class for code customized Notebook frame.
 
 **Attributes** :
 
-* _parent - Editor instance reference
+* _editor - Editor instance reference
 * _tab_refs - references to FileTab instances
 * _new_cnt - count of new files
 
 **Properties (Getters)** :
 
-* parent - returns _parent
+* editor - returns _editor
 * tab_refs - returns _tab_refs
 * new_cnt - returns _new_cnt
 

@@ -1,4 +1,4 @@
-.. _module_ext_client_explorer:
+.. _module_ext_client_core_explorer:
 
 explorer
 ========
@@ -19,7 +19,9 @@ Class for Explorer frame.
 * _config - Config instance reference
 * _editor - Editor instance reference
 * _logger - Logger instance reference
-* _yoda_tree - TodaTree instance reference
+* _yoda_tree - YodaTree instance reference
+* _autocompleter - AutoCompleter instance reference
+* _projects - projects configuration
 * _tree - TreeView with project tree
 * _vsb - VerticalBar
 * _hsb - HorizontalBar
@@ -34,6 +36,7 @@ Class for Explorer frame.
 * editor - returns _editor
 * logger - returns _logger
 * yoda_tree - returns _yoda_tree
+* autocompleter - returns _autocompleter
 
 **Methods** :
 
@@ -44,10 +47,6 @@ Constructor, singleton pattern. Initialize references and GUI, parse configurati
 * get_instance
 
 Returns instance reference, singleton pattern.
-
-* set_late_ref
-
-Method sets references which are initialized later in root.
 
 * _parse_config
 
@@ -80,6 +79,10 @@ Method populates tree, project is root, directories are nodes, files are leafs.
 * _update_tree
 
 Method updates tree content.
+
+* new_file
+
+Method creates new file vie editor method.
 
 * new_project
 

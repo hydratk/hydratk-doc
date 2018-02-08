@@ -1,4 +1,4 @@
-.. _module_ext_client_utils:
+.. _module_ext_client_core_utils:
 
 utils
 =====

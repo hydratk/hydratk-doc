@@ -1,4 +1,4 @@
-.. _module_ext_client_logger:
+.. _module_ext_client_core_logger:
 
 logger
 ======

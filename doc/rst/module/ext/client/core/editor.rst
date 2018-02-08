@@ -1,4 +1,4 @@
-.. _module_ext_client_editor:
+.. _module_ext_client_core_editor:
 
 editor
 ======
@@ -20,10 +20,6 @@ Class for Editor frame.
 * _logger - Logger instance reference
 * _explorer - Explorer instance reference
 * _yoda_tree - YodaTree instance reference
-* _colorizer - Colorizer instance reference
-* _formatter - Formatter instance reference
-* _autocompleter - AutoCompleter instance reference
-* _syntaxchecker - SyntaxChecker instance reference
 * _nb - Notebook instance reference
 * _var_show_line_number - bool, show line numbers in text
 * _var_show_info_bar - bool, show info bar in text
@@ -37,10 +33,6 @@ Class for Editor frame.
 * logger - returns _logger
 * explorer - retunrs _explorer
 * yoda_tree - returns _yoda_tree
-* colorizer - returns _colorizer
-* formatter - returns _formatter
-* autocompleter - returns _autocompleter
-* syntaxchecker - returns _syntaxchecker
 * nb - returns _nb
 * var_show_line_number - returns _var_show_line_number
 * var_show_info_bar - returns _var_show_info_bar
@@ -55,10 +47,6 @@ Constructor, singleton pattern. Initialize references and GUI, parse configurati
 * get_instance
 
 Returns instance reference, singleton pattern.
-
-* set_late_ref
-
-Method sets references which are initialized later in root.
 
 * _parse_config
 
@@ -164,7 +152,3 @@ Method updates yoda tree when tab is changed. If current tab contains jedi file,
 * refresh_yoda_tree
 
 Method refreshes yoda tree structure.
-
-* syntax_check
-
-Method executes syntax check for current tab and displays found errors.

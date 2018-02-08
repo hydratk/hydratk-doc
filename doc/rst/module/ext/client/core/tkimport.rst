@@ -1,4 +1,4 @@
-.. _module_ext_client_tkimport:
+.. _module_ext_client_core_tkimport:
 
 tkimport
 ========

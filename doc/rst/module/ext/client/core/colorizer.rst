@@ -1,4 +1,4 @@
-.. _module_ext_client_colorizer:
+.. _module_ext_client_core_colorizer:
 
 colorizer
 =========
@@ -14,12 +14,10 @@ Class for code syntax highlighting.
 
 * _instance - instance reference
 * _instance_created - bool, True if created
-* _root - Gui instance reference
 * _config - Config instance reference
 
 **Properties (Getters)** :
 
-* root - returns _root
 * config - returns _config
 
 **Methods** :

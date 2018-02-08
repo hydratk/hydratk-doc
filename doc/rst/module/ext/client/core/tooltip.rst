@@ -1,4 +1,4 @@
-.. _module_ext_client_tooltip:
+.. _module_ext_client_core_tooltip:
 
 tooltip
 =======

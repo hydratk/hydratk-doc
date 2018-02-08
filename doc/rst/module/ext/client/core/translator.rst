@@ -1,4 +1,4 @@
-.. _module_ext_client_translator:
+.. _module_ext_client_core_translator:
 
 translator
 ==========

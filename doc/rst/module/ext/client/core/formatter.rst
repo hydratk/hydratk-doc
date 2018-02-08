@@ -1,4 +1,4 @@
-.. _module_ext_client_formatter:
+.. _module_ext_client_core_formatter:
 
 formatter
 =========
@@ -14,14 +14,12 @@ Class for code automatic text formatting.
 
 * _instance - instance reference
 * _instance_created - bool, True if created
-* _root - Gui instance reference
 * _config - Config instance reference
 * _patterns - text patterns
 * _amend_keys - automatically amended keys
 
 **Properties (Getters)** :
 
-* root - returns _root
 * config - returns _config
 
 **Methods** :

@@ -1,4 +1,4 @@
-.. _module_ext_client_filetab:
+.. _module_ext_client_core_filetab:
 
 filetab
 =======
@@ -12,7 +12,7 @@ Class for FileTab frame.
 
 **Attributes** :
 
-* _parent - Notebook instance reference
+* _nb - Notebook instance reference
 * _editor - Editor instance reference
 * _colorizer - Colorizer instance reference
 * _formatter - Formatter instance reference
@@ -30,7 +30,7 @@ Class for FileTab frame.
 
 **Properties (Getters)** :
 
-* parent - returns _parent
+* nb - returns _nb
 * editor - returns _editor
 * colorizer - returns _colorizer
 * formatter - returns _formatter
@@ -48,6 +48,10 @@ Constructor. Initialize references and GUI.
 * _set_gui
 
 Method initializes GUI - text area, scrollbars, line number bar, info bar, context menu.
+
+* _set_menu
+
+Method sets context menu.
 
 * _context_menu
 

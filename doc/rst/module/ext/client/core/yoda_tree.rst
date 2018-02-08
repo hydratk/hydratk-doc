@@ -1,4 +1,4 @@
-.. _module_ext_client_yoda_tree:
+.. _module_ext_client_core_yoda_tree:
 
 yoda_tree
 =========
@@ -17,7 +17,7 @@ Class for code YodaTree frame. It uses external module `pyyaml <https://pyyaml.o
 * _root - Gui instance reference
 * _trn - Translator instance reference
 * _config - Config instance reference
-* _edito - Editor instance reference
+* _editor - Editor instance reference
 * _logger - Logger instance reference
 * _tree - TreeView
 * _vsb - VerticalBar
@@ -45,10 +45,6 @@ Constructor, singleton pattern. Initialize references and GUI, parse configurati
 * get_instance
 
 Returns instance reference, singleton pattern.
-
-* set_late_ref
-
-Method sets references which are initialized later in root.
 
 * _parse_config
 

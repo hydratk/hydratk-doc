@@ -1,4 +1,4 @@
-.. _module_ext_client_help:
+.. _module_ext_client_core_help:
 
 help
 ====

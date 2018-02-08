@@ -390,11 +390,11 @@ Check hydratk-lib-network module is installed.
      hydratk-lib-network (0.2.1)    
      
 Upgrade
-=======
+^^^^^^^
 
 Use same procedure as for installation. Use command option --upgrade for pip, easy_install, --force for setup.py.
 
 Uninstall
-=========    
+^^^^^^^^^
 
 Run command htkuninstall. Use option -y if you want to uninstall also dependent Python modules (for advanced user).            

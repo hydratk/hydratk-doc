@@ -1,4 +1,4 @@
-.. _module_ext_client_aconfig:
+.. _module_ext_client_core_config:
 
 config
 ======

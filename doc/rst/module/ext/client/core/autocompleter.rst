@@ -1,4 +1,4 @@
-.. _module_ext_client_autocompleter:
+.. _module_ext_client_core_autocompleter:
 
 autocompleter
 =============

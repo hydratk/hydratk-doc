@@ -32,6 +32,7 @@ autodoc_default_flags = ['members', 'private-members', 'special-members']
 autodoc_mock_imports = [
     'cassandra.cluster', 'cassandra.auth', 'cassandra.protocol',
     'cx_Oracle',
+    'git',
     'jedi',
     'jpype',
     'jsonrpclib', 'jsonrpclib.jsonrpc',

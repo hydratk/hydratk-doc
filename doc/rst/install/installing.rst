@@ -63,13 +63,21 @@ Modules setproctitle, psutil, pyzmq require several libraries which will be inst
 
 setprocitle
 
-* apt-get: gcc, wget, tar, bzip2, python-dev
-* yum: gcc, wget, tar, bzip2, redhat-rpm-config, python-devel       
+* Debian apt-get: python-dev, gcc, wget, bzip2, tart
+* Red Hat yum: redhat-rpm-config, python-devel, gcc, wget, bzip2, tar
+* Fedora dnf: redhat-rpm-config, python-devel, gcc, wget, bzip2, tar
+* SuSe zypper: python-devel, gcc, wget, bzip2, tar
+* Gentoo emerge: gcc, wget, bzip2, tar
+* Arch pacman: gcc, wget, bzip2, tar       
     
 pyzmq
 
-* apt-get: g++, libzmq-dev
-* yum: gcc-c++, zeromq    
+* Debian apt-get: g++, libzmq-dev
+* Red Hat yum: epel-release, gcc-c++, zeromq
+* Fedora dnf: gcc-c++, zeromq
+* SuSe zypper: gcc-c++, zeromq-devel
+* Gentoo emerge: g++
+* Arch pacman: g++    
 
   .. note::
      
@@ -185,7 +193,7 @@ See installation example for Linux based on Debian distribution, Python 2.7.
      
 Application installs following (paths depend on your OS configuration)
 
-* commands htk, htkprof, htkuninstall in /usr/local/bin
+* commands htk, htkuninstall in /usr/local/bin
 * modules in /usr/local/lib/python2.7/dist-packages/hydratk-0.5.0-py2.7egg
 * configuration file in /etc/hydratk/hydratk.conf
 * application folder in /var/local/hydratk        
@@ -305,12 +313,12 @@ Type command htk -d 1 start and see debug log.
      [17/11/2016 16:13:30.531] Debug(1): hydratk.core.corehead:_check_cw_activity:0: Checking live status on thread: 4, last activity before: 0.0701160430908
         
 Upgrade
-=======
+^^^^^^^
 
 Use same procedure as for installation. Use command option --upgrade for pip, easy_install, --force for setup.py.
 If configuration file differs from default settings the file is backuped (extension _old) and replaced by default. Adapt the configuration if needed.
 
 Uninstall
-=========    
+^^^^^^^^^   
 
 Run command htkuninstall. Use option -y if you want to uninstall also dependent Python modules (for advanced user).    

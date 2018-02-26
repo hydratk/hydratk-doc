@@ -3,7 +3,11 @@
 Tutorial 3: SOAP interface
 ==========================
 
-Sample Yoda script is located in /var/local/hydratk/yoda/yoda-tests/hydratk/extensions/testenv/soap.jedi.
+Sample Yoda script is located in /var/local/hydratk/yoda/yoda-tests/hydratk/extensions/testenv/sys_soap.jedi.
+Sample smoke test is located in smoke.jedi.
+Sample integration test (SOAP+DB) in located in int_soap.jedi, it uses archive.
+
+Important snippets are commented.
 
 Connect
 ^^^^^^^

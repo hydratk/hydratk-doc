@@ -118,7 +118,7 @@ Module cassandra-driver installation takes longer time (not so fast as other mod
      Installation for PyPy has some differences.
      Module cx-oracle-on-ctypes is installed instead of cx_Oracle.
      Module psycopg2cffi is installed instead of psycopg2.
-     Modules JPype1, pymssql, python-ldap are not supported and installed.
+     Modules JPype1, pymssql are not supported and installed.
      
   .. note ::
    

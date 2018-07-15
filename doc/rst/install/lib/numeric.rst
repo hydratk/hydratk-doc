@@ -66,26 +66,14 @@ These modules will be installed automatically, if not installed yet.
 * scipy
 * sympy
 
-Module matplotlib requires library which will be installed via Linux package managers, if not installed yet.
-
   .. note ::
      
      Installation for Python2.6 and 3.3 is not supported due to key module numpy.
-
-  .. note ::
-  
-     Installation for Python3 has some differences.
-     Library python3-tk or python3-tkinter is installed instead of python-tk or tkinter. 
      
   .. note ::
   
      Installation for PyPy has some differences.
      Modules matplotlib, scipy are not supported and installed.      
-
-matplotlib
-
-* apt-get: python-tk
-* yum: tkinter 
 
 Library offers following profiles.
 
